@@ -1,0 +1,336 @@
+
+.mulu{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ff0000;
+}
+
+#music{
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #0ff;
+}
+
+.gaikaung{
+
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+    background-color: #123156;
+}
+#lianjie{
+    border: 1px solid #123156;
+    text-align: center;
+
+    padding: 20px;
+    margin: 0;
+
+    color: #d1d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#jiaohuan{
+    color: aqua;
+    text-align: center;
+    text-decoration-color: brown;
+
+}
+#biaoge{
+    font-size: inherit;
+    text-align: center;
+    color: dimgrey;
+    margin-left: 200px;
+}
+.gaikuang{
+    height: 600px;
+}
+#jiexianqi{
+    margin-top: -470px;
+    margin-left: 700px;
+}
+
+#fazhan1{
+    color: darkblue;
+    background: brown;
+}
+#xin1{
+    color: darkblue;
+    background: brown;
+}
+#shu1{
+    color: darkblue;
+    background: brown;
+}
+#zhuse{
+    color: darkblue;
+    background: brown;
+}
+
+
+
+.img{
+    text-align: center;
+}
+
+#txing{
+    text-align: center;
+}
+#photo1{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#photo1:hover{
+    transform: scale(1.8);
+}
+#photo2{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#photo2:hover{
+    transform: scale(1.8);
+}
+
+
+
+#index3{
+    text-align: center;
+    color: crimson;
+}
+
+
+#photo3{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot3:hover{
+    transform: scale(1.8);
+}
+
+#photo4{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot4:hover{
+    transform: scale(1.8);
+}
+
+#photo5{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot5:hover{
+    transform: scale(1.8);
+}
+
+
+#photo6{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot6:hover{
+    transform: scale(1.8);
+}
+
+#photo7{
+
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot7:hover{
+    transform: scale(1.8);
+}
+
+#photo8{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#phot8:hover{
+    transform: scale(1.8);
+}
+
+#tupian{
+     margin-left: 250px;
+}
+
+#hualu{
+    text-align: center;
+    margin-top: -7px;
+    margin-left: 80px;
+}
+
+#kongzhixitong{
+text-align: center;
+    float:right;
+    margin-top: -400px;
+    margin-left: -300px;
+}
+
+
+
+#index4{
+    text-align: center;
+    color: darkmagenta;
+}
+
+/** { padding:0; margin:0;}       /*设置所有对像的内边距为0*/
+/*body { text-align:center;}      /*设置页面居中对齐*/
+#photo-list {
+    text-align: center;
+    /* 6张图片的宽度（包含宽度、padding、border、图片间的留白）
+    计算：6*(100+2*2+1*2+9) - 9
+    之所以减去9是第6张图片的右边留白 */
+    width:1300px;
+
+    /* 图片的宽度（包含高度、padding、border）
+       计算：100+2*2+1*2  */
+    height:280px;
+    margin:50px auto;
+    overflow:hidden;     /*溢出部份将被隐藏*/
+    border:1px dashed #ccc;
+}
+#photo-list ul { list-style:none;border: 2px solid tomato}
+#photo-list li { float:left; padding-right:9px;}
+
+#photo-list img { border:1px solid #ddd; background:#fff; padding:2px;}
+
+
+#photo9{
+     border: 1px solid #ff0000;
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+     transition: all 0.6s;
+ }
+#photo9:hover{
+    transform: scale(8.8);
+}
+
+#time{
+    border: 1px solid #ff0000;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+#time:hover{
+    transform: scale(8.8);
+}
+
+#box{
+    width: 1300px;
+    margin: 0 auto;
+    border: 5px solid red;
+}
+
+#hujiaochuli{
+/*text-align: right;
+*/
+    border: 1px solid yellow;
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin: 40px;
+}
+
+#ruanjian{
+    border: 1px solid darkturquoise;
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin: 40px;
+}
+#zhixing{
+    border: 1px solid greenyellow;
+    height: 100%;
+    width: 300px;
+    float: left;
+    margin: 40px;
+}
+#zhengduan{
+    border: 1px solid fuchsia;
+    width: 200px;
+    float: left;
+    margin: 40px;
+}
+
+#return{
+    width: 10px;
+    height: 10px;
+    margin-left: 600px;
+
+}
+
+#yidong{
+text-align: center;
+    color: yellowgreen;
+
+}
+
+#jianjie{
+
+    text-align: center;
+    border: 2px solid royalblue;
+    margin-left: 380px;
+    background-color: cornflowerblue;
+}
+#index5{
+    text-align: center;
+    background-color: #000;
+    text-shadow: 2px 3px 10px #ff1717;
+    font-size: 50px;
+    font-weight: bold;
+    transition: color 1s;
+    color: #000;
+}
+
+#chengkongjiaohuan{
+    text-align: center;
+    background-color: #000;
+    text-shadow: 2px 3px 10px #ff1717;
+    font-size: 50px;
+    font-weight: bold;
+    transition: color 1s;
+    color: #000;
+}
+
+#blink{
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+#photo{
+.mengsb{width:648px;margin:120px auto ;}
+
+
+.photo img:hover{text-decoration:none;cursor:hand;}
+
+.photo img span{display:none;cursor:hand;text-align:center;color:#F0F;line-height:36px;padding:98px 0;font-weight:bold;}
+
+.photo img:hover span{width:320px;background:#000;display:block;position:absolute;bottom:0px;left:0;color:#F00;filter:alpha(opacity=0.6);-moz-opacity:0.3;opacity:0.3;align:center;}
+}

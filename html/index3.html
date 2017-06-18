@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>程控交换的硬件系统</title>
+    <link rel="stylesheet" href="../css/css.css"/>
+</head>
+<body>
+<div>
+<h1 id="index3">程控交换的硬件系统</h1>
+</div>
+
+<div class="photo">
+    <table id="tupian" border="1">
+        <tr>
+            <td><img onmouseover="" id="photo3" src="../img/3.png" title="总体结构" alt="总体结构"/></td>
+            <td><img id="photo4" src="../img/4.png" title="馈电"/></td>
+            <td><img id="photo5" src="../img/5.png" title="过压保护"/></td>
+        </tr>
+        <tr>
+            <td><img id="photo6" src="../img/6.png" title="振铃"/></td>
+            <td><img id="photo7" src="../img/7.png" title="监视"/></td>
+            <td><img id="photo8" src="../img/8.png" title="混合电路"/></td>
+        </tr>
+</table>
+</div>
+
+<div class="hualu">
+    <table id="hualu" border="1">
+        <caption  ><h2 >话路系统</h2></caption>
+        <tr>
+          <td rowspan="14">用户级话路</td>
+                <td rowspan="7">模拟用户电路</td>
+                <td>B 馈电</td>
+            <tr>
+                <td>O 过压保护 </td>
+            </tr>
+            <tr>
+                <td>R 振铃控制 </td>
+            </tr>
+            <tr>
+                 <td>S 监视 </td>
+            </tr>
+            <tr>
+                <td>C 编译码和滤波 </td>
+            </tr>
+            <tr>
+                <td>H 混合电路 </td>
+             </tr>
+         <tr>
+            <td>T 测试 </td>
+            </tr>
+        </tr>
+
+
+
+
+        <tr>
+            <td rowspan="2">中继器</td>
+            <td>模拟中继器</td>
+            <tr>
+            <td>数字中继器</td>
+    </tr>
+        </tr>
+
+
+        <tr>
+            <td rowspan="4">信号部件</td>
+            <td>数字音频信号的产生(单双)</td>
+            <tr>
+        <td>数字音频信号的发送</td>
+    </tr>
+
+        <tr>
+            <td>数字音频信号的接受(DTMF、MFC)</td>
+        </tr>
+        </tr>
+    </table>
+
+</div>
+
+<div class="kongzhi">
+
+<table id="kongzhixitong" border="2">
+    <caption><h2 id="kong">控制系统</h2></caption>
+        <tr>
+            <td rowspan="4">处理机控制方式</td>
+            <td>集中控制方式</td>
+            <tr>
+                <td rowspan="3">分散控制方式</td>
+                <td>话务容量分担和功能分担</td>
+            <tr>
+                <td>静态分配和动态分配</td>
+            </tr>
+            <tr>
+                <td>分级控制系统和分布式控制系统</td>
+            </tr>
+</tr>
+        </tr>
+
+    <tr>
+        <td rowspan="3">处理机的备用方式</td>
+        <td>同步双工工作方式</td>
+        <tr>
+                <td>
+                    话务分担工作方式
+                </td>
+                 <tr>
+                  <td>备用方式</td>
+                </tr>
+</tr>
+    </tr>
+
+
+    <tr>
+        <td>控制系统可用性</td>
+            <td>可用性（A）=MTBF）/(MTBF + MTTR）</td>
+
+    </tr>
+</table>
+
+</div>
+<embed  id="music" src="../music/杨千嬅%20-%20再见二丁目.mp3" type="audio/mpeg" loop="-1" />
+<br/>
+
+<div ><a id="blink" href="../index.html">返回</a></div>
+<script language="javascript">
+    function changeColor(){
+        var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+        color=color.split("|");
+        document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+    }
+    setInterval("changeColor()",200);
+</script>
+
+    <br/>
+    <br/>
+<br/>
+<br/>
+</body>
+</html>

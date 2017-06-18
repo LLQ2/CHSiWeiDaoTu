@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>交换技术的概况</title>
+    <link rel="stylesheet" href="../css/css.css"/>
+</head>
+<body>
+
+<div class="gaikuang" >
+    <H1 id="jiaohuan">交换技术的概况</H1>
+
+
+    <table id="biaoge" border="1">
+    <caption><h2>交换技术的分类</h2></caption>
+     <tr>
+         <th>交换的本质</th>
+         <td colspan="0">时隙的交换</td>
+     </tr>
+     <tr>
+         <th rowspan="13">交换技术分类</th>
+         <td>模拟交换</td>
+      <tr>
+        <td>数字交换</td>
+      </tr>
+        <tr>
+            <td>布控交换</td>
+        </tr>
+        <tr>
+            <td>程控交换</td>
+        </tr>
+        <tr>
+            <td>窄带交换</td>
+        </tr>
+        <tr>
+            <td>宽带交换</td>
+        </tr>
+
+        <tr >
+            <td rowspan="3">电路交换</td>
+              <td>传统的电路交换</td>
+        </tr>
+        <tr>
+            <td>多速率电路交换</td>
+        </tr>
+        <tr>
+            <td>快速电路交换</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5">分组交换</td>
+            <td><a href="http://blog.csdn.net/21aspnet/article/details/7249522">虚电路和数据报的区别</a></td>
+        </tr>
+
+           <tr>
+                <td>路由选择</td>
+           </tr>
+        <tr>
+            <td>帧交换</td>
+        </tr>
+        <tr>
+            <td>快速分组交换</td>
+        </tr>
+     </tr>
+
+    </table>
+
+
+    <table id="jiexianqi" border="1">
+        <caption><h2>T/S接线器</h2></caption>
+
+        <tr>
+            <td rowspan="2">T型时分接线器</td>
+            <td>基本组成</td>
+            <td>话音存储器（SM）和控制存储器（CM）</td>
+        <tr>
+            <td>工作原理</td>
+            <td>输出控制方式、输入控制方式</td>
+        </tr>
+        </tr>
+
+
+
+        <tr>
+            <td rowspan="2">S型时分接线器</td>
+            <td>基本组成</td>
+            <td>由m x n交叉点矩阵和CM组成</td>
+        <tr>
+            <td>工作原理</td>
+            <td>输出控制方式、输入控制方式</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>三级时分交换网络</td>
+            <td  colspan="2">T-S-T型时分交换网络
+                S-T-S型时分交换网络</td>
+        </tr>
+        </table>
+</div>
+
+<div class="fazhan">
+    <h3 id="fazhan1">交换技术的发展</h3>
+    <ul>
+    <li>电话交换技术的发展</li>
+    <br/>
+    <li>分组交换技术的发展</li>
+    <br/>
+    <li>ATM交换技术的发展</li>
+    <br/>
+    <li>IP交换技术的发展</li>
+        </ul>
+</div>
+
+
+<div class="xinling">
+    <h3 id="xin1">电话交换信令的方式</h3>
+    <ul>
+    <li>信令的类型：带内信令 、随路信令 、分组信令 、公共信道信令</li>
+    <li>用户线信令：用户状态信令 、 选择信令 、各种可闻信令</li>
+    <li>局间信令： 中国一号信令（属于随路信令） 、 中国7号信令（属于共路信令）</li>
+    </ul>
+</div>
+
+<div class="shuzi">
+    <h3 id="shu1">数字交换与数字交换网络</h3>
+    <div id="shixi">
+     <h4>数字交换原理：
+         数字交换、 时隙交换原理 、数字交换网络</h4>
+    </div>
+
+<h3 id="zhuse" >阻塞的概念</h3>
+    <h4>阻塞是指主向发出呼叫时，被叫虽然空闲，但是由于网络内部链路不通，而使呼叫损失的情况</h4>
+    <br/>
+</div>
+
+
+<br/>
+<div class="img">
+<img id="photo1" src="../img/1.png" alt="时隙交换原理" />
+<img id="photo2"  src="../img/2.png" alt="读-写方式的TST网络"  />
+</div>
+<br/>
+
+<embed   id="music" src="../music/Delacey%20-%20Dream%20It%20Possible.mp3" type="audio/mpeg" loop="-1" />
+<br/>
+
+<div ><a id="blink" href="../index.html">返回</a></div>
+<script language="javascript">
+    function changeColor(){
+        var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+        color=color.split("|");
+        document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+    }
+    setInterval("changeColor()",200);
+</script>
+
+<br/>
+<br/>
+<script type="text/javascript" language="JavaScript"></script>
+</body>
+</html>
+
+
